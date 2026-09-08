@@ -16,7 +16,7 @@ Layer order matters: Drawn from bottom to top.
 
 - Behavior can be modified using `Control rendering order` checkbox
 
-![First layers](first_layers.png)
+![First layers](res/first_layers.png)
 
 ## Map Navigation
 
@@ -82,7 +82,7 @@ symbol is rendered.
 > Symbol Syles can be saved and loaded to/from disk in `QGIS QML Style File`
 > format
 
-![Better roads](better_roads.png)
+![Better roads](res/better_roads.png)
 
 **Symbol Levels on Classified Layers**
 
@@ -90,12 +90,12 @@ Symbol Levels also work for Classified layers
 
 - Classified layers consist of multiple symbols
 
-![Classified Layers](classified_layers.png)
+![Classified Layers](res/classified_layers.png)
 
 #### Symbol Layer Types
 
 Each vector (point, line, and polygon) has its own set of symbol layer types
 
-![Symbol layer types](symbol_layer_types.png)
+![Symbol layer types](res/symbol_layer_types.png)
 
 
