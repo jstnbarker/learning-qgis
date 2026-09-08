@@ -91,3 +91,11 @@ Symbol Levels also work for Classified layers
 - Classified layers consist of multiple symbols
 
 ![Classified Layers](classified_layers.png)
+
+#### Symbol Layer Types
+
+Each vector (point, line, and polygon) has its own set of symbol layer types
+
+![Symbol layer types](symbol_layer_types.png)
+
+
