@@ -84,3 +84,10 @@ symbol is rendered.
 
 ![Better roads](better_roads.png)
 
+**Symbol Levels on Classified Layers**
+
+Symbol Levels also work for Classified layers 
+
+- Classified layers consist of multiple symbols
+
+![Classified Layers](classified_layers.png)
