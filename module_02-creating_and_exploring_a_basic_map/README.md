@@ -40,3 +40,47 @@ Viewchanges are saved in a history, allowing backtracking to previous views.
   are seeing in the Map Canvas is to the object in the real world.
 
 ## Symbology
+
+Symbology of a layer is it's visual appearance on the map.
+
+Visual appearance is very important: 
+
+- GIS's basic strength is allowing for dynamic visual representations of the
+  data you're working with
+- End users **need** to easily see what the map represents
+- **You** need to be able to exlore the data you're working with
+
+### Tinkering
+
+**Changing colors**
+
+- Changed under `Layer Properties/Symbology`
+- Outline patterns
+- Making patterns is neat- spent a little time reworking the "Zelda" pattern to
+  be a transparent checkerboard of red squares
+
+**Scale based visibiliity**
+
+- Configured under `Layer Properties/Rendering`, enable `Scale Dependent Visibility`
+- Some layers not suitable at different scalees (i.e. buildings at 1:1000000)
+
+**Symbol Layers**
+
+Kinda already did this while tinkering with "Zelda"
+
+- Draw order works the same way as `Layers`, bottom to top.
+
+**Symbol Levels**
+
+Giving a black outline to roads with a solid white fill causes ugly overlaps
+intersections this is fixed by enabling and configuring `Layer
+Properties/Advanced/Symbol Levels` to explicitly declare what order each layer
+symbol is rendered.
+
+- Merely enabling it for 2 Symbol Layers is sufficient in this case.
+
+> Symbol Syles can be saved and loaded to/from disk in `QGIS QML Style File`
+> format
+
+![Better roads](better_roads.png)
+
