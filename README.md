@@ -3,8 +3,9 @@ Manual for QGIS 3.44.
 
 | Module | Status   |
 |--------|----------|
+| 1      | Complete | 
 | 2      | Complete | 
-| 3      | Complete | 
+| 3      | WIP      | 
 | 4      |          | 
 | 5      |          | 
 | 6      |          | 
